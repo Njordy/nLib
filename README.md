@@ -13,7 +13,7 @@ General purpose nodes:
 - **Curve Root**: creates @root attribute (or a group "roots") in the very first point of every curve; has an option of leaving only root points.
 - **Curve Rotate**: (useful for grass and hair) rotates a curve (by @root point) to a specufied angle with option to add randomization.
 
-General purpose nodes:
+Hair and Fur:
 - **Fur Vusualizer**: colorizes hair randomly, also appliying unified color onth hairs in one clump on top;  has an additional option to color guard hair with different color.
 - **Hair Clump Radius Randomize**: just sets a random attribute @clumpsize on guide hair. 
 - **Guide Influence Radius**: helps then guides on the skin were planted with different density, so it calculates @influenceradiusscale attribute on order to set in influence individually in order to limit interpolation from destroying fine ditails.  

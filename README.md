@@ -10,6 +10,7 @@ Every tool does a simple operations what is usually very common.
 General purpose nodes:
 - **Positional Change**: takes original and deformed geometry, and adds a v@pchange with a difference between positions on these geos; contains a visualization option and a mix slider. 
 - **Calcualte Curve U**: fastest way to create @curve_u attribute, also can convert from @uv in order to save a little bit of memory.
+- **Calcualte Curve Tangent**: better way to calculate tangent — every point points at the next one, and the end point of every curve continues the direction instead of breaking; additional randomization of the end point vectors (on set angle) and @end attribute to easily separate last points on the curve. 
 - **Curve Root**: creates @root attribute (or a group "roots") in the very first point of every curve; has an option of leaving only root points.
 - **Curve Rotate**: (useful for grass and hair) rotates a curve (by @root point) to a specufied angle with option to add randomization.
 

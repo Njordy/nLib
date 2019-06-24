@@ -14,6 +14,9 @@ General purpose nodes:
 - **Curve Root**: creates @root attribute (or a group "roots") in the very first point of every curve; has an option of leaving only root points.
 - **Curve Rotate**: (useful for grass and hair) rotates a curve (by @root point) to a specufied angle with option to add randomization.
 
+Simulational:
+- **Positional Change**: takes volume primitives from a smoke simulation, converts to VDBs, merges multiple scalar fields into vector field, deactivates voxels beyound bounaries of @density with option to downsample any of them. 
+
 Hair and Fur:
 - **Fur Vusualizer**: colorizes hair randomly, also appliying unified color onth hairs in one clump on top;  has an additional option to color guard hair with different color.
 - **Hair Clump Radius Randomize**: just sets a random attribute @clumpsize on guide hair. 
